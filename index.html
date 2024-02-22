@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Project 3</title>
+</head>
+<body>
+    <h2>Danh mục sản phẩm</h2>
+    <div id="category" class="category_list">
+
+    </div>
+    <h2>Danh sách sản phẩm</h2>
+    
+    <div class="search" id="search">
+        <input type="text" placeholder="Nhập từ khóa tìm kiếm...">
+        <button>Search</button>
+    </div>
+    <select name="" id="filter">
+        <option value="preset">Mặc định</option>
+        <option value="price_up">Giá thấp đến cao</option>
+        <option value="price_down">Giá cao đến thấp</option>
+        <option value="much_discount">Giảm giá nhiều</option>
+    </select>
+    <div id="product" class="product_list">
+        
+    </div>
+    <div class="pagination">
+        <div id="prevPage" class="pagination_button">Prev</div>
+        <div id="pageNum">1</div>
+        <div id="nextPage" class="pagination_button">Next</div>
+    </div>
+   
+    <script type="module" src="JS/category.js"></script>
+    <script type="module" src="JS/product.js"></script>
+</body>
+</html>
